@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Spartan:wght@100;200;300;400;500;600;700;800;900&display=swap');
+body{
+    margin: 0px;
+    font-family: 'Spartan', san-serif;
+}
+
+#header{
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+    background-color: transparent;
+    padding: 20px 50px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.06);
+}
+
+#navbar ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+#navbar li a{
+    padding: 0 20px;
+    color: #571472;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+#hero{
+    background-color: black;
+    color: white;
+    text-align: center;
+    height: 50vh;
+}
+
+.logo{
+    width: 400px;
+    height: 400px;
+    position: absolute;
+    top: 30px;
+    left: 520px;
+}
+
+.products{
+    font-size: 80px;
+    position: absolute;
+    color: white;
+    text-align: center;
+    top: 200px;
+    left: 570px;
+    
+    /* making an underline */
+    /* border-bottom: 1px gray solid; */
+}
+
+.heading{
+    font-size: 28px;
+    color: gray;
+    margin-left: 620px;
+    margin-right: 640px;
+    border-bottom: 1px black solid;
+    /* padding-right: 100px; */
+}
